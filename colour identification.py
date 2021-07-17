@@ -22,7 +22,7 @@ def draw_function(event, x, y, flags, params):
         ypos = y
         # print(x, y)
         b, g, r = img[y, x]
-        b = int(b)  # else it is of type numpy int8
+        b = int(b)  # else it is of type numpy uint8
         g = int(g)
         r = int(r)
 
